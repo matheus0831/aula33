@@ -1,0 +1,86 @@
+h1{
+  text-align: center;
+}
+*{
+  padding:0;
+  margin:0;
+  border: 0;
+}
+/*Cabecalho*/
+.cabecalho{
+  width: 100%;
+  height: 100px;
+  background-color: #8f00ff;
+  display: flex;
+  flex-direction: row;
+}
+.imagem{
+  height:100%;
+  width:180px;
+}
+.imagem img{
+  height: 100%;
+  width: 100%;
+}
+/*Menu*/
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1100px;
+}
+.menu a{
+  margin-left: 25px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.menu a:hover{
+  color: #FF0DCD;
+}
+/*Conteudo*/
+article{
+  margin-top: 20px;
+}
+.conteudo{
+  display: flex;
+  flex-direction: row;
+}
+.foto{
+  width: 50%;
+  margin-left: 5%;
+  height:500px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.foto img{
+  width:100%;
+  height:100%;
+}
+.texto{
+  margin-top:20px;
+  width:35%;
+  text-align: justify;
+  margin-left: 5%;
+}
+/*Seção de fotos*/
+.integrantes{
+  background-color: #EB89E9;
+  margin-top: 20px;
+}
+.integrante{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.padrao{
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  margin-left: 10%;
+}
+.padrao img{
+  width: 100%;
+  height: 100%;
+}
